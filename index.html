@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Examination Center Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Examination Center Registration</h1>
+        <form id="registration-form" class="visible">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" required>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" required>
+
+            <button type="button" onclick="registerStudent()">Register</button>
+        </form>
+        <p id="result" class="hidden"></p>
+        <p id="city-message" class="hidden"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
